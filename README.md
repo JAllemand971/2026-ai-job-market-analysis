@@ -83,6 +83,16 @@ The original dataset had limited skill coverage. Only a small portion of posting
 
 To make skill demand analysis more useful, the project creates a final recommended skill signal by combining original skills, similarity-based inference, local LLM validation, and rule-based rescue logic.
 
+## Dataset Coverage
+
+The project starts with an important data quality question: which fields are reliable enough to analyze?
+
+![Dataset Coverage](outputs/figures/coverage_by_field.png)
+
+The dataset has strong coverage for basic job information, but weaker coverage for salary and original skill fields.
+
+This is why the project includes a dedicated skill enrichment pipeline instead of relying only on the original `required_skills` column.
+
 ## Project Notebooks
 
 | Notebook | Purpose |
@@ -224,3 +234,87 @@ The final dataset preserves traceability columns so that each skill source can b
 The notebook exports the final analysis-ready dataset used by the insight and machine learning notebooks.
 
 This dataset becomes the foundation for the rest of the project.
+
+## Market Insight Figures
+
+The second notebook, `02_job_market_insights.ipynb`, explores the structure of the AI job market using the final enriched dataset.
+
+### Job Postings by Country
+
+![Job Postings by Country](outputs/figures/job_postings_by_country.png)
+
+The dataset covers AI-related job postings across five major job markets: the United States, United Kingdom, Canada, Germany, and Australia.
+
+This helps compare where the largest number of AI-related opportunities appear in the dataset.
+
+### Top Job Categories
+
+![Top Job Categories](outputs/figures/top_job_categories.png)
+
+The market is concentrated around a few major AI and Data role families.
+
+The largest categories include AI Engineer, Data Scientist, Machine Learning Engineer, Software Engineer, LLM Engineer, Research Scientist, and MLOps Engineer.
+
+### Top Recommended Skills
+
+![Top Recommended Skills](outputs/figures/top_recommended_skills.png)
+
+The recommended skills provide an enriched view of technical demand after combining original skills, inferred skills, and LLM-validated skill signals.
+
+This helps reveal demand for Python, cloud platforms, NLP, RAG, GenAI tooling, and production-oriented AI skills.
+
+### US Salary Distribution
+
+![US Salary Distribution](outputs/figures/salary_distribution_us.png)
+
+Salary analysis is focused carefully because salary data is incomplete and varies strongly by country.
+
+The US salary distribution is especially useful because salary coverage is stronger for US postings than for other countries.
+
+### US Salary by Experience Level
+
+![US Salary by Experience Level](outputs/figures/salary_by_experience_level_us.png)
+
+Salary patterns are analyzed by experience level to understand how compensation changes across junior, mid-level, senior, lead, and management roles.
+
+These results should be interpreted with sample size in mind.
+
+### Job Clusters
+
+![Job Clusters](outputs/figures/job_clusters_2d.png)
+
+Clustering is used to explore whether job postings naturally form market segments based on text and skill patterns.
+
+This helps identify broad groups such as AI engineering, data science, machine learning engineering, MLOps, cloud, platform, and software-oriented roles.
+
+### Random Forest Salary Feature Importance
+
+![Random Forest Salary Feature Importance](outputs/figures/rf_salary_feature_importance.png)
+
+Feature importance gives a rough view of which variables helped the salary model make predictions.
+
+These results are not causal. They only show which features were useful to the model within this dataset.
+
+### Job Category Classification Matrix
+
+![Job Category Confusion Matrix](outputs/figures/job_category_confusion_matrix.png)
+
+The job category classifier tests whether normalized job categories can be learned from job titles and descriptions.
+
+Misclassifications are useful because they reveal overlapping or ambiguous job families.
+
+### Salary Band Classification Matrix
+
+![Salary Band Confusion Matrix](outputs/figures/salary_band_confusion_matrix_rf.png)
+
+Salary band classification can be more stable than exact salary prediction because job posting salaries are noisy and contain outliers.
+
+This model tests whether postings can be grouped into broad salary levels.
+
+### Additional Figure Index
+
+![Saved Figures Index](outputs/figures/figure_001.png)
+
+The project also includes additional automatically saved figures in the `outputs/figures/` folder.
+
+These figures support deeper exploration of data quality, job category distribution, salary patterns, skill demand, model behavior, and market segmentation.
