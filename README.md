@@ -1,340 +1,226 @@
 # 2026 AI Job Market Analysis
 
-This project analyzes a dataset of AI-related job postings across multiple countries to better understand the structure of the AI job market.
+## Overview
 
-The goal is to explore:
+This project is an end-to-end data science and machine learning analysis of the 2026 AI job market.
 
-* Which AI job categories appear most often
-* Which skills are most frequently requested
-* How salary data varies across roles and countries
-* How complete the original skill data was
-* How skill coverage can be improved using a data pipeline
-* Whether machine learning models can learn useful patterns from job postings
+The goal is to transform a noisy job posting dataset into a structured market intelligence dataset that can be used to analyze:
 
-This is a portfolio project focused on data cleaning, exploratory data analysis, skill extraction, visualization, and introductory machine learning.
+- AI and Data job categories
+- Required technical skills
+- Salary trends
+- Country-level hiring patterns
+- Remote and hybrid work distribution
+- Skill gaps and market signals
+- Machine learning patterns in job descriptions
 
----
+The project combines data cleaning, feature engineering, job title normalization, ESCO occupation mapping, skill enrichment, local LLM validation, exploratory data analysis, and machine learning.
 
-## Project Overview
+This is not only a visualization project. It is a complete applied AI/data pipeline designed to convert messy job postings into structured insights.
 
-The project is divided into three main notebooks:
+## Why This Project Matters
 
-| Notebook                                                | Purpose                                                                                                                                          |
-| ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `01_build_skill_dataset.ipynb`                          | Cleans the raw dataset, normalizes job titles, maps roles to ESCO occupations, completes missing skills, and creates the final analysis dataset. |
-| `02_job_market_insights.ipynb`                          | Performs exploratory data analysis and creates market insight visualizations.                                                                    |
-| `03_machine_learning_analysis_ai_job_market_data.ipynb` | Applies machine learning models for salary analysis, salary band classification, job category classification, skill prediction, and clustering.  |
+AI job postings are often difficult to analyze because they contain noisy job titles, incomplete skill fields, inconsistent descriptions, missing salary information, and overlapping role definitions.
 
----
+For example, the same type of position can appear under many different titles:
+
+- AI Engineer
+- Generative AI Engineer
+- LLM Engineer
+- Machine Learning Engineer
+- Applied Scientist
+- AI Software Engineer
+- MLOps Engineer
+
+At the same time, many postings do not explicitly list required skills, even when the job description strongly implies them.
+
+This project addresses these problems by building a structured analysis pipeline that:
+
+- Cleans and standardizes raw job market data
+- Normalizes job titles into a custom AI job taxonomy
+- Maps job categories to ESCO occupation labels when possible
+- Enriches missing skills using similar job postings
+- Validates inferred skills with a local LLM through Ollama
+- Preserves traceability between original, inferred, validated, and final recommended skills
+- Produces analysis-ready datasets for market insights and machine learning
+
+## Technical Highlights
+
+This project demonstrates practical experience with:
+
+- Data cleaning and preprocessing
+- Exploratory data analysis
+- Feature engineering
+- Job title normalization
+- Custom taxonomy design
+- ESCO occupation mapping
+- Skill extraction and enrichment
+- KNN-based similarity search
+- Local LLM validation with Ollama
+- Rule-based post-processing
+- Data quality analysis
+- Salary analysis
+- Multi-label skill modeling
+- Text classification
+- Clustering and market segmentation
+- Machine learning model evaluation
+- Portfolio-ready data visualization
 
 ## Dataset Summary
 
 The final dataset contains:
 
-* 5,773 AI-related job postings
-* 5 countries
-* 16 normalized job categories
-* Salary information when available
-* Original skills when provided
-* Recommended skills generated from the skill completion pipeline
-* Job descriptions, titles, companies, experience levels, and remote status
+- 5,773 AI-related job postings
+- 5 countries
+- 16 normalized job categories
+- Salary information when available
+- Job titles and descriptions
+- Company, country, city, experience level, and remote status
+- Original required skills when provided
+- Enriched recommended skills generated by the skill completion pipeline
 
-The original dataset had limited skill coverage. Only a small portion of job postings included explicit required skills.
+The original dataset had limited skill coverage. Only a small portion of postings contained explicit required skills.
 
-To improve the analysis, this project builds a skill enrichment pipeline that combines:
+To make skill demand analysis more useful, the project creates a final recommended skill signal by combining original skills, similarity-based inference, local LLM validation, and rule-based rescue logic.
 
-1. Original skills when available
-2. Job title normalization
-3. ESCO occupation mapping
-4. KNN-based skill inference
-5. Local LLM validation with Ollama
-6. Rule-based rescue for obvious skills removed too aggressively
-7. Final recommended skill selection
+## Project Notebooks
 
----
+| Notebook | Purpose |
+|---|---|
+| `01_build_skill_dataset.ipynb` | Builds the final analysis dataset. This notebook cleans the raw job posting data, normalizes job titles, creates a custom AI role taxonomy, maps roles to ESCO occupations, enriches missing skills using KNN similarity, validates inferred skills with a local Ollama LLM, applies rescue rules for obvious removed skills, and exports the final dataset used by the analysis notebooks. |
+| `02_job_market_insights.ipynb` | Explores the AI job market in depth. This notebook analyzes data quality, job category distribution, country-level demand, salary coverage, remote work patterns, skill demand, skill co-occurrence, role specialization, experience-level patterns, and market segmentation. |
+| `03_machine_learning_analysis_ai_job_market_data.ipynb` | Applies machine learning models to the final dataset. This notebook includes salary prediction, salary band classification, job category classification from text, multi-label skill prediction, feature importance, and clustering-based market segmentation. |
 
-## Main Results
+## What `01_build_skill_dataset.ipynb` Does
 
-### Dataset Coverage
+The first notebook is the core data engineering and skill enrichment pipeline.
 
-The final dataset has much better skill coverage after enrichment.
+It performs the following steps:
 
-![Dataset Coverage](outputs/figures/coverage_by_field.png)
+### 1. Raw Data Exploration
 
-Key observations:
+The notebook starts by inspecting the raw AI job posting dataset, including:
 
-* Salary data is available for a meaningful portion of the dataset, but not for every country equally.
-* Original skill coverage was low.
-* Recommended skill coverage is much higher after the skill completion pipeline.
-* Salary analysis should be interpreted carefully because salary availability varies by country.
+- Dataset shape
+- Missing values
+- Duplicate rows
+- Job title distribution
+- Country distribution
+- Remote type distribution
+- Experience level distribution
+- Salary availability
+- Job description length
 
----
+This step identifies important data quality problems, including incomplete skill fields and truncated job descriptions.
 
-## Job Market Distribution
+### 2. Data Cleaning
 
-### Job Postings by Country
+The notebook creates a cleaned dataset by:
 
-![Job Postings by Country](outputs/figures/job_postings_by_country.png)
+- Removing duplicate rows
+- Standardizing text columns
+- Cleaning city names
+- Converting posting dates
+- Creating year, month, and year-month features
+- Detecting truncated job descriptions
+- Preserving original job titles for auditability
 
-The dataset covers job postings from the United States, United Kingdom, Canada, Germany, and Australia.
+### 3. Non-English Job Title Cleaning
 
-The distribution is not perfectly balanced, so country-level results should be interpreted with sample size in mind.
+Some job titles contain German and French terms or encoding issues.
 
----
+The notebook improves title quality by:
 
-### Top Job Categories
+- Fixing common encoding problems
+- Detecting likely German and French job titles
+- Removing German gender markers such as `(m/w/d)`
+- Translating common German job terms
+- Translating common French job terms
+- Cleaning inconsistent title formatting
 
-![Top Job Categories](outputs/figures/top_job_categories.png)
+This improves the quality of downstream job title normalization.
 
-The largest job categories include:
+### 4. Custom AI Job Taxonomy
 
-* AI Engineer
-* Data Scientist
-* Machine Learning Engineer
-* Software Engineer
-* LLM Engineer
-* Research Scientist
-* MLOps Engineer
+The project defines a custom taxonomy of 16 AI and Data job categories:
 
-The market is concentrated around a few major role families.
+- AI Engineer
+- Machine Learning Engineer
+- Data Scientist
+- Data Engineer
+- Research Scientist
+- Computer Vision Engineer
+- NLP Engineer
+- LLM Engineer
+- MLOps Engineer
+- DevOps Engineer
+- Platform Engineer
+- Software Engineer
+- Solutions Architect
+- Product / Management
+- Consultant
+- Other
 
----
+This taxonomy makes the dataset easier to analyze and reduces the noise created by thousands of unique job titles.
 
-## Skill Demand Analysis
+### 5. ESCO Occupation Mapping
 
-### Top Recommended Skills
+The notebook maps internal job categories to the closest ESCO occupation labels when possible.
 
-![Top Recommended Skills](outputs/figures/top_recommended_skills.png)
+This adds an external occupation reference layer and makes the project more structured.
 
-The most common skills include general programming, AI, NLP, cloud, and generative AI related technologies.
+Some modern AI roles, such as LLM Engineer or MLOps Engineer, do not have perfect ESCO equivalents, so the project uses custom or partial mappings where necessary.
 
-The final recommended skills should be interpreted as enriched market signals. They are not always skills explicitly written by employers in the original job postings.
+### 6. Skill Enrichment Pipeline
 
----
+The original `required_skills` column is highly incomplete.
 
-## Salary Analysis
+To improve skill coverage, the notebook builds a skill completion pipeline using:
 
-Salary analysis is performed carefully because salary data is incomplete and salaries across countries should not be compared directly without currency normalization.
+- Existing original skills
+- Similar job postings
+- KNN-based skill inference
+- Job title and category context
+- Skill normalization
+- Local LLM validation
+- Rule-based rescue logic
 
-For this reason, some salary modeling focuses on United States postings only.
+### 7. Local LLM Validation with Ollama
 
-### US Salary Distribution
+The notebook uses a local LLM through Ollama to validate inferred skills.
 
-![US Salary Distribution](outputs/figures/salary_distribution_us.png)
+The LLM does not generate skills from scratch.
 
-Salary distributions are noisy and contain outliers, so median values and salary bands are often more reliable than simple averages.
+Instead, it receives candidate skills inferred by the pipeline and decides which skills should be kept or rejected based on:
 
----
+- Job title
+- Normalized job category
+- Job description
+- Candidate skills
 
-### US Salary by Experience Level
+This creates a more conservative and traceable skill signal.
 
-![US Salary by Experience Level](outputs/figures/salary_by_experience_level_us.png)
+### 8. Rescue Logic
 
-Experience-level salary patterns should be interpreted carefully. Some groups can have small sample sizes or unusual role mixes.
+Because job descriptions are often short or truncated, the LLM can sometimes remove reasonable skills too aggressively.
 
-For example, junior roles may sometimes appear to have unexpectedly high salaries if they are concentrated in specialized AI, ML, or PhD-level postings.
+The notebook applies rescue rules to add back obvious core skills when they were already present in the inferred candidate list.
 
----
+This improves coverage while avoiding uncontrolled skill generation.
 
-## Machine Learning Analysis
+### 9. Final Recommended Skills
 
-The machine learning notebook explores whether job market patterns can be learned from the dataset.
+The final output combines:
 
-The project includes:
+- Original skills when available
+- LLM-validated inferred skills
+- Rescued skills when appropriate
+- Section 9 fallback skills when LLM validation was not available
 
-* Baseline salary prediction
-* Linear regression
-* Random Forest regression
-* Salary band classification
-* Job category classification from text
-* Multi-label skill prediction
-* Job clustering and market segmentation
+The final dataset preserves traceability columns so that each skill source can be audited.
 
-The goal is not to create a production-level model. The goal is to evaluate whether the dataset contains learnable structure and to explain the limitations clearly.
+### 10. Final Dataset Export
 
----
+The notebook exports the final analysis-ready dataset used by the insight and machine learning notebooks.
 
-### Job Clustering
-
-![Job Clusters](outputs/figures/job_clusters_2d.png)
-
-Clustering is used to group similar job postings based on text and skill information.
-
-The clusters help identify broad job market segments such as:
-
-* AI / GenAI roles
-* Data science roles
-* Machine learning engineering roles
-* MLOps / cloud roles
-* Software and platform engineering roles
-
----
-
-### Salary Model Feature Importance
-
-![Random Forest Salary Feature Importance](outputs/figures/rf_salary_feature_importance.png)
-
-Feature importance gives a rough view of which variables helped the model predict salary.
-
-These results should not be interpreted as causal. They only show which features were useful for prediction in this dataset.
-
----
-
-### Job Category Classification
-
-![Job Category Confusion Matrix](outputs/figures/job_category_confusion_matrix.png)
-
-The job category classifier tests whether normalized job categories can be learned from job titles and descriptions.
-
-Classification errors are useful because they reveal ambiguous roles and overlapping job families.
-
----
-
-### Salary Band Classification
-
-![Salary Band Confusion Matrix](outputs/figures/salary_band_confusion_matrix_rf.png)
-
-Salary band classification can be more stable than predicting exact salaries because job posting salaries are noisy and can contain outliers.
-
----
-
-## Methods Used
-
-### Data Cleaning
-
-* Removed duplicate rows
-* Standardized text fields
-* Cleaned city names
-* Converted posting dates
-* Detected truncated job descriptions
-* Cleaned German and French job titles
-* Created analysis-ready helper columns
-
-### Job Title Normalization
-
-Job titles were mapped into a custom taxonomy of 16 categories:
-
-* AI Engineer
-* Machine Learning Engineer
-* Data Scientist
-* Data Engineer
-* Research Scientist
-* Computer Vision Engineer
-* NLP Engineer
-* LLM Engineer
-* MLOps Engineer
-* DevOps Engineer
-* Platform Engineer
-* Software Engineer
-* Solutions Architect
-* Product / Management
-* Consultant
-* Other
-
-### Skill Completion Pipeline
-
-The skill pipeline was designed to address missing skill information.
-
-The final recommended skills were created using:
-
-* Existing required skills when available
-* Similar job postings
-* KNN-based inference
-* Local LLM validation
-* Rescue rules for obvious core skills
-* Traceability columns to identify the skill source
-
-### Machine Learning
-
-The machine learning notebook includes:
-
-* Regression models for salary prediction
-* Classification models for salary bands
-* Text classification for job categories
-* Multi-label classification for skill prediction
-* Clustering for market segmentation
-
----
-
-## Project Structure
-
-```text
-2026-ai-job-market-analysis/
-│
-├── notebooks/
-│   ├── 01_build_skill_dataset.ipynb
-│   ├── 02_job_market_insights.ipynb
-│   ├── 02_simplified_ai_job_market_analysis.ipynb
-│   └── 03_machine_learning_analysis_ai_job_market_data.ipynb
-│
-├── outputs/
-│   └── figures/
-│       ├── coverage_by_field.png
-│       ├── job_postings_by_country.png
-│       ├── top_job_categories.png
-│       ├── top_recommended_skills.png
-│       ├── salary_distribution_us.png
-│       ├── salary_by_experience_level_us.png
-│       ├── job_clusters_2d.png
-│       ├── rf_salary_feature_importance.png
-│       ├── job_category_confusion_matrix.png
-│       └── salary_band_confusion_matrix_rf.png
-│
-└── .gitignore
-```
-
----
-
-## Tools and Libraries
-
-Main tools used:
-
-* Python
-* pandas
-* numpy
-* matplotlib
-* seaborn
-* scikit-learn
-* Jupyter Notebook
-* Ollama for local LLM validation
-* ESCO occupations dataset for occupation mapping
-
----
-
-## Important Limitations
-
-This project is exploratory and should not be interpreted as a complete representation of the global AI job market.
-
-Main limitations:
-
-* Many job descriptions are truncated.
-* Original required skill data is highly incomplete.
-* Some final skills are inferred, not directly provided by employers.
-* Salary data is incomplete.
-* Salary availability varies strongly by country.
-* Salaries should not be compared across countries without currency normalization.
-* Job categories can overlap.
-* Some job postings may be duplicated semantically even if exact duplicate rows were not present.
-* Machine learning models are exploratory and not causal.
-
----
-
-## Key Takeaways
-
-The AI job market is concentrated around a few major role families, especially AI Engineer, Data Scientist, and Machine Learning Engineer.
-
-Skill demand is broader than only model training. The dataset shows strong demand for practical skills such as Python, cloud platforms, NLP, RAG, and production-oriented AI tooling.
-
-The original skill data was too incomplete for strong skill analysis, but the enrichment pipeline created a more usable final skill signal.
-
-Salary analysis is useful, especially for US postings, but exact salary prediction remains difficult because salaries are noisy, incomplete, and affected by many hidden factors.
-
-Machine learning models can identify useful patterns in the data, especially for job category classification and salary band classification, but results should be interpreted carefully.
-
----
-
-## Author
-
-Jeremy Allemand
-
-GitHub: [JAllemand971](https://github.com/JAllemand971)
+This dataset becomes the foundation for the rest of the project.
