@@ -1,0 +1,63 @@
+figure_number,figure_title,filename,path
+1,Dataset Coverage by Analysis Field,001_dataset_coverage_by_analysis_field.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\001_dataset_coverage_by_analysis_field.png
+1,Top Missing Columns,002_top_missing_columns.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\002_top_missing_columns.png
+1,Salary Data Coverage,003_salary_data_coverage.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\003_salary_data_coverage.png
+1,Salary Coverage by Country,004_salary_coverage_by_country.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\004_salary_coverage_by_country.png
+1,Original vs Recommended Skill Coverage,005_original_vs_recommended_skill_coverage.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\005_original_vs_recommended_skill_coverage.png
+1,Recommended Skill Source Distribution,006_recommended_skill_source_distribution.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\006_recommended_skill_source_distribution.png
+1,Job Posting Coverage by Category,007_job_posting_coverage_by_category.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\007_job_posting_coverage_by_category.png
+1,AI Job Market Dataset Overview,008_ai_job_market_dataset_overview.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\008_ai_job_market_dataset_overview.png
+1,Job Postings by Country,009_job_postings_by_country.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\009_job_postings_by_country.png
+1,Top Job Categories,010_top_job_categories.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\010_top_job_categories.png
+1,Most Common Skills,011_most_common_skills.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\011_most_common_skills.png
+1,Salary Distribution,012_salary_distribution.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\012_salary_distribution.png
+1,Top Job Categories by Number of Postings,013_top_job_categories_by_number_of_postings.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\013_top_job_categories_by_number_of_postings.png
+1,Top Job Categories by Market Share,014_top_job_categories_by_market_share.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\014_top_job_categories_by_market_share.png
+1,Market Concentration by Top Categories,015_market_concentration_by_top_categories.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\015_market_concentration_by_top_categories.png
+1,Salary Coverage by Job Category,016_salary_coverage_by_job_category.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\016_salary_coverage_by_job_category.png
+1,Recommended Skill Coverage by Job Category,017_recommended_skill_coverage_by_job_category.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\017_recommended_skill_coverage_by_job_category.png
+1,Average Recommended Skills per Job by Category,018_average_recommended_skills_per_job_by_category.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\018_average_recommended_skills_per_job_by_category.png
+1,Top Job Categories by Country,019_top_job_categories_by_country.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\019_top_job_categories_by_country.png
+1,Category Share Within Each Country,020_category_share_within_each_country.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\020_category_share_within_each_country.png
+1,Top Skills by Number of Job Postings,021_top_skills_by_number_of_job_postings.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\021_top_skills_by_number_of_job_postings.png
+1,Top Skills by Share of Job Postings,022_top_skills_by_share_of_job_postings.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\022_top_skills_by_share_of_job_postings.png
+1,Number of Skills by Demand Tier,023_number_of_skills_by_demand_tier.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\023_number_of_skills_by_demand_tier.png
+1,Skill Demand by Technical Area,024_skill_demand_by_technical_area.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\024_skill_demand_by_technical_area.png
+1,Technical Area Penetration Across Job Postings,025_technical_area_penetration_across_job_postings.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\025_technical_area_penetration_across_job_postings.png
+1,Skill Co-occurrence Matrix,026_skill_co_occurrence_matrix.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\026_skill_co_occurrence_matrix.png
+1,Most Common Skill Pairs,027_most_common_skill_pairs.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\027_most_common_skill_pairs.png
+1,Top Skills by Job Category,028_top_skills_by_job_category.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\028_top_skills_by_job_category.png
+1,Technical Skill Areas by Job Category,029_technical_skill_areas_by_job_category.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\029_technical_skill_areas_by_job_category.png
+1,Dominant Technical Area by Job Category,030_dominant_technical_area_by_job_category.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\030_dominant_technical_area_by_job_category.png
+1,AI Job Postings by Country,031_ai_job_postings_by_country.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\031_ai_job_postings_by_country.png
+1,AI Job Market Share by Country,032_ai_job_market_share_by_country.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\032_ai_job_market_share_by_country.png
+1,Job Category Share by Country,033_job_category_share_by_country.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\033_job_category_share_by_country.png
+1,Technical Skill Areas by Country,034_technical_skill_areas_by_country.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\034_technical_skill_areas_by_country.png
+1,Salary Coverage by Country,035_salary_coverage_by_country.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\035_salary_coverage_by_country.png
+1,Salary Distribution by Country,036_salary_distribution_by_country.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\036_salary_distribution_by_country.png
+1,Research vs Industrial / Applied Roles by Country,037_research_vs_industrial_applied_roles_by_country.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\037_research_vs_industrial_applied_roles_by_country.png
+1,AI Job Market Segments by Country,038_ai_job_market_segments_by_country.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\038_ai_job_market_segments_by_country.png
+1,Remote Work Status Among Clear Remote Status Postings,039_remote_work_status_among_clear_remote_status_postings.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\039_remote_work_status_among_clear_remote_status_postings.png
+1,Remote Work Status by Country,040_remote_work_status_by_country.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\040_remote_work_status_by_country.png
+1,Remote Work Status by Job Category,041_remote_work_status_by_job_category.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\041_remote_work_status_by_job_category.png
+1,Technical Skill Areas by Remote Work Type,042_technical_skill_areas_by_remote_work_type.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\042_technical_skill_areas_by_remote_work_type.png
+1,Salary Distribution by Remote Work Type,043_salary_distribution_by_remote_work_type.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\043_salary_distribution_by_remote_work_type.png
+1,Salary Distribution After Cleaning,044_salary_distribution_after_cleaning.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\044_salary_distribution_after_cleaning.png
+1,Salary Distribution and Outliers,045_salary_distribution_and_outliers.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\045_salary_distribution_and_outliers.png
+1,Median Salary by Country,046_median_salary_by_country.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\046_median_salary_by_country.png
+1,Salary Distribution by Country,047_salary_distribution_by_country.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\047_salary_distribution_by_country.png
+1,Median Salary by Job Category,048_median_salary_by_job_category.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\048_median_salary_by_job_category.png
+1,Salary Distribution by Job Category,049_salary_distribution_by_job_category.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\049_salary_distribution_by_job_category.png
+1,Median Salary by Experience Level,050_median_salary_by_experience_level.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\050_median_salary_by_experience_level.png
+1,Median Salary by Remote Work Type,051_median_salary_by_remote_work_type.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\051_median_salary_by_remote_work_type.png
+1,Salary Distribution by Remote Work Type,052_salary_distribution_by_remote_work_type.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\052_salary_distribution_by_remote_work_type.png
+1,Median Salary by Country and Job Category,053_median_salary_by_country_and_job_category.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\053_median_salary_by_country_and_job_category.png
+1,Median Salary by Country and Job Category,054_median_salary_by_country_and_job_category.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\054_median_salary_by_country_and_job_category.png
+1,Median Salary by Technical Skill Area,055_median_salary_by_technical_skill_area.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\055_median_salary_by_technical_skill_area.png
+1,Experience Level Distribution,056_experience_level_distribution.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\056_experience_level_distribution.png
+1,Experience Level by Job Category,057_experience_level_by_job_category.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\057_experience_level_by_job_category.png
+1,Most Common Experience Level by Job Category,058_most_common_experience_level_by_job_category.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\058_most_common_experience_level_by_job_category.png
+1,Experience Level by Country,059_experience_level_by_country.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\059_experience_level_by_country.png
+1,Experience Level by Remote Work Type,060_experience_level_by_remote_work_type.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\060_experience_level_by_remote_work_type.png
+1,Technical Skill Areas by Experience Level,061_technical_skill_areas_by_experience_level.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\061_technical_skill_areas_by_experience_level.png
+1,Median Salary by Experience Level,062_median_salary_by_experience_level.png,C:\Users\jerem\job_analysis\2026_ai_job_market_analysis\outputs\figures\062_median_salary_by_experience_level.png
