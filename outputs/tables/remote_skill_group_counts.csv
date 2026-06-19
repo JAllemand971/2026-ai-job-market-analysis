@@ -1,0 +1,22 @@
+remote_type_clean,skill_group,job_count,remote_type_job_count,share_in_remote_type_percent
+Hybrid,Cloud Platforms,176,379,46.44
+Hybrid,Computer Vision,91,379,24.01
+Hybrid,Core Programming & Data,278,379,73.35
+Hybrid,Data Engineering,5,379,1.32
+Hybrid,MLOps & Infrastructure,56,379,14.78
+Hybrid,Machine Learning Frameworks,12,379,3.17
+Hybrid,Text AI & Generative AI,170,379,44.85
+On-site,Cloud Platforms,66,104,63.46
+On-site,Computer Vision,50,104,48.08
+On-site,Core Programming & Data,79,104,75.96
+On-site,Data Engineering,1,104,0.96
+On-site,MLOps & Infrastructure,12,104,11.54
+On-site,Machine Learning Frameworks,5,104,4.81
+On-site,Text AI & Generative AI,71,104,68.27
+Remote,Cloud Platforms,247,576,42.88
+Remote,Computer Vision,84,576,14.58
+Remote,Core Programming & Data,374,576,64.93
+Remote,Data Engineering,11,576,1.91
+Remote,MLOps & Infrastructure,34,576,5.9
+Remote,Machine Learning Frameworks,17,576,2.95
+Remote,Text AI & Generative AI,301,576,52.26

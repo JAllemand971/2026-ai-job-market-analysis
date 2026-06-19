@@ -1,0 +1,36 @@
+country,skill_group,job_count,country_job_count,share_in_country_percent
+Australia,Cloud Platforms,352,739,47.63
+Australia,Computer Vision,124,739,16.78
+Australia,Core Programming & Data,434,739,58.73
+Australia,Data Engineering,37,739,5.01
+Australia,MLOps & Infrastructure,45,739,6.09
+Australia,Machine Learning Frameworks,29,739,3.92
+Australia,Text AI & Generative AI,271,739,36.67
+Canada,Cloud Platforms,449,1068,42.04
+Canada,Computer Vision,201,1068,18.82
+Canada,Core Programming & Data,648,1068,60.67
+Canada,Data Engineering,34,1068,3.18
+Canada,MLOps & Infrastructure,73,1068,6.84
+Canada,Machine Learning Frameworks,41,1068,3.84
+Canada,Text AI & Generative AI,493,1068,46.16
+Germany,Cloud Platforms,436,944,46.19
+Germany,Computer Vision,187,944,19.81
+Germany,Core Programming & Data,491,944,52.01
+Germany,Data Engineering,31,944,3.28
+Germany,MLOps & Infrastructure,78,944,8.26
+Germany,Machine Learning Frameworks,27,944,2.86
+Germany,Text AI & Generative AI,427,944,45.23
+United Kingdom,Cloud Platforms,533,1185,44.98
+United Kingdom,Computer Vision,268,1185,22.62
+United Kingdom,Core Programming & Data,719,1185,60.68
+United Kingdom,Data Engineering,51,1185,4.3
+United Kingdom,MLOps & Infrastructure,104,1185,8.78
+United Kingdom,Machine Learning Frameworks,54,1185,4.56
+United Kingdom,Text AI & Generative AI,578,1185,48.78
+United States,Cloud Platforms,608,1837,33.1
+United States,Computer Vision,647,1837,35.22
+United States,Core Programming & Data,1057,1837,57.54
+United States,Data Engineering,44,1837,2.4
+United States,MLOps & Infrastructure,149,1837,8.11
+United States,Machine Learning Frameworks,32,1837,1.74
+United States,Text AI & Generative AI,1029,1837,56.02

@@ -1,0 +1,66 @@
+normalized_title,experience_level_clean,job_count,category_job_count,share_in_category_percent
+AI Engineer,Junior,3,290,1.03
+AI Engineer,Lead,38,290,13.1
+AI Engineer,Management,4,290,1.38
+AI Engineer,Mid,192,290,66.21
+AI Engineer,Senior,53,290,18.28
+Computer Vision Engineer,Junior,7,39,17.95
+Computer Vision Engineer,Lead,5,39,12.82
+Computer Vision Engineer,Management,3,39,7.69
+Computer Vision Engineer,Mid,13,39,33.33
+Computer Vision Engineer,Senior,11,39,28.21
+Consultant,Junior,7,22,31.82
+Consultant,Lead,1,22,4.55
+Consultant,Mid,12,22,54.55
+Consultant,Senior,2,22,9.09
+Data Engineer,Lead,5,16,31.25
+Data Engineer,Mid,6,16,37.5
+Data Engineer,Senior,5,16,31.25
+Data Scientist,Junior,16,234,6.84
+Data Scientist,Lead,19,234,8.12
+Data Scientist,Management,7,234,2.99
+Data Scientist,Mid,144,234,61.54
+Data Scientist,Senior,48,234,20.51
+DevOps Engineer,Mid,2,5,40.0
+DevOps Engineer,Senior,3,5,60.0
+LLM Engineer,Junior,2,88,2.27
+LLM Engineer,Lead,7,88,7.95
+LLM Engineer,Management,1,88,1.14
+LLM Engineer,Mid,63,88,71.59
+LLM Engineer,Senior,15,88,17.05
+MLOps Engineer,Junior,1,26,3.85
+MLOps Engineer,Lead,4,26,15.38
+MLOps Engineer,Management,1,26,3.85
+MLOps Engineer,Mid,13,26,50.0
+MLOps Engineer,Senior,7,26,26.92
+Machine Learning Engineer,Junior,3,72,4.17
+Machine Learning Engineer,Lead,10,72,13.89
+Machine Learning Engineer,Management,1,72,1.39
+Machine Learning Engineer,Mid,27,72,37.5
+Machine Learning Engineer,Senior,31,72,43.06
+NLP Engineer,Lead,6,12,50.0
+NLP Engineer,Mid,5,12,41.67
+NLP Engineer,Senior,1,12,8.33
+Other,Junior,8,34,23.53
+Other,Lead,6,34,17.65
+Other,Management,1,34,2.94
+Other,Mid,15,34,44.12
+Other,Senior,4,34,11.76
+Platform Engineer,Management,1,9,11.11
+Platform Engineer,Mid,5,9,55.56
+Platform Engineer,Senior,3,9,33.33
+Product / Management,Lead,9,29,31.03
+Product / Management,Management,9,29,31.03
+Product / Management,Mid,2,29,6.9
+Product / Management,Senior,9,29,31.03
+Research Scientist,Junior,43,78,55.13
+Research Scientist,Lead,1,78,1.28
+Research Scientist,Mid,29,78,37.18
+Research Scientist,Senior,5,78,6.41
+Software Engineer,Junior,23,96,23.96
+Software Engineer,Lead,12,96,12.5
+Software Engineer,Management,1,96,1.04
+Software Engineer,Mid,15,96,15.62
+Software Engineer,Senior,45,96,46.88
+Solutions Architect,Mid,5,9,55.56
+Solutions Architect,Senior,4,9,44.44

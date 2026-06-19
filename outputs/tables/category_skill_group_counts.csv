@@ -1,0 +1,85 @@
+normalized_title,skill_group,job_count,category_job_count,share_in_category_percent
+AI Engineer,Text AI & Generative AI,940,1329,70.73
+AI Engineer,Core Programming & Data,915,1329,68.85
+AI Engineer,Cloud Platforms,747,1329,56.21
+AI Engineer,Computer Vision,162,1329,12.19
+AI Engineer,MLOps & Infrastructure,58,1329,4.36
+AI Engineer,Machine Learning Frameworks,49,1329,3.69
+AI Engineer,Data Engineering,1,1329,0.08
+Computer Vision Engineer,Computer Vision,240,240,100.0
+Computer Vision Engineer,Core Programming & Data,27,240,11.25
+Computer Vision Engineer,Text AI & Generative AI,9,240,3.75
+Computer Vision Engineer,MLOps & Infrastructure,2,240,0.83
+Computer Vision Engineer,Cloud Platforms,1,240,0.42
+Consultant,Core Programming & Data,57,117,48.72
+Consultant,Text AI & Generative AI,54,117,46.15
+Consultant,Cloud Platforms,50,117,42.74
+Data Engineer,Cloud Platforms,81,116,69.83
+Data Engineer,Data Engineering,69,116,59.48
+Data Engineer,Core Programming & Data,35,116,30.17
+Data Engineer,Computer Vision,20,116,17.24
+Data Engineer,Text AI & Generative AI,19,116,16.38
+Data Scientist,Core Programming & Data,850,969,87.72
+Data Scientist,Cloud Platforms,559,969,57.69
+Data Scientist,Computer Vision,328,969,33.85
+Data Scientist,Text AI & Generative AI,309,969,31.89
+Data Scientist,Data Engineering,24,969,2.48
+Data Scientist,Machine Learning Frameworks,17,969,1.75
+Data Scientist,MLOps & Infrastructure,1,969,0.1
+DevOps Engineer,Cloud Platforms,57,72,79.17
+DevOps Engineer,Text AI & Generative AI,40,72,55.56
+DevOps Engineer,Core Programming & Data,33,72,45.83
+LLM Engineer,Text AI & Generative AI,350,396,88.38
+LLM Engineer,Core Programming & Data,147,396,37.12
+LLM Engineer,Cloud Platforms,63,396,15.91
+LLM Engineer,Data Engineering,14,396,3.54
+LLM Engineer,MLOps & Infrastructure,12,396,3.03
+LLM Engineer,Machine Learning Frameworks,12,396,3.03
+LLM Engineer,Computer Vision,10,396,2.53
+MLOps Engineer,Cloud Platforms,186,251,74.1
+MLOps Engineer,Core Programming & Data,162,251,64.54
+MLOps Engineer,MLOps & Infrastructure,103,251,41.04
+MLOps Engineer,Text AI & Generative AI,74,251,29.48
+MLOps Engineer,Data Engineering,22,251,8.76
+MLOps Engineer,Machine Learning Frameworks,5,251,1.99
+Machine Learning Engineer,Text AI & Generative AI,526,822,63.99
+Machine Learning Engineer,Core Programming & Data,434,822,52.8
+Machine Learning Engineer,Computer Vision,404,822,49.15
+Machine Learning Engineer,Cloud Platforms,251,822,30.54
+Machine Learning Engineer,MLOps & Infrastructure,116,822,14.11
+Machine Learning Engineer,Machine Learning Frameworks,76,822,9.25
+Machine Learning Engineer,Data Engineering,24,822,2.92
+NLP Engineer,Text AI & Generative AI,112,114,98.25
+NLP Engineer,Core Programming & Data,15,114,13.16
+NLP Engineer,Computer Vision,2,114,1.75
+Other,Machine Learning Frameworks,2,166,1.2
+Other,Text AI & Generative AI,2,166,1.2
+Other,Cloud Platforms,1,166,0.6
+Other,Computer Vision,1,166,0.6
+Other,Core Programming & Data,1,166,0.6
+Other,MLOps & Infrastructure,1,166,0.6
+Platform Engineer,Cloud Platforms,16,62,25.81
+Platform Engineer,Core Programming & Data,15,62,24.19
+Platform Engineer,MLOps & Infrastructure,13,62,20.97
+Platform Engineer,Text AI & Generative AI,7,62,11.29
+Product / Management,Cloud Platforms,87,219,39.73
+Product / Management,Text AI & Generative AI,50,219,22.83
+Product / Management,Core Programming & Data,45,219,20.55
+Product / Management,Computer Vision,18,219,8.22
+Product / Management,Data Engineering,1,219,0.46
+Research Scientist,Core Programming & Data,257,382,67.28
+Research Scientist,Computer Vision,209,382,54.71
+Research Scientist,Text AI & Generative AI,125,382,32.72
+Research Scientist,Machine Learning Frameworks,15,382,3.93
+Software Engineer,Core Programming & Data,296,439,67.43
+Software Engineer,Cloud Platforms,215,439,48.97
+Software Engineer,Text AI & Generative AI,145,439,33.03
+Software Engineer,MLOps & Infrastructure,134,439,30.52
+Software Engineer,Computer Vision,33,439,7.52
+Software Engineer,Data Engineering,33,439,7.52
+Solutions Architect,Cloud Platforms,64,79,81.01
+Solutions Architect,Core Programming & Data,60,79,75.95
+Solutions Architect,Text AI & Generative AI,36,79,45.57
+Solutions Architect,Data Engineering,9,79,11.39
+Solutions Architect,MLOps & Infrastructure,9,79,11.39
+Solutions Architect,Machine Learning Frameworks,7,79,8.86

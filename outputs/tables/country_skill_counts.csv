@@ -1,0 +1,113 @@
+country,skill,job_count,country_job_count,share_in_country_percent
+Australia,airflow,24,739,3.25
+Australia,aws,222,739,30.04
+Australia,azure,196,739,26.52
+Australia,computer vision,124,739,16.78
+Australia,database management systems,11,739,1.49
+Australia,docker,7,739,0.95
+Australia,fine-tuning,50,739,6.77
+Australia,gcp,62,739,8.39
+Australia,keras,2,739,0.27
+Australia,kubernetes,37,739,5.01
+Australia,langchain,16,739,2.17
+Australia,mlflow,1,739,0.14
+Australia,nlp,179,739,24.22
+Australia,openai,49,739,6.63
+Australia,python,317,739,42.9
+Australia,pytorch,19,739,2.57
+Australia,r,147,739,19.89
+Australia,rag,77,739,10.42
+Australia,scikit-learn,3,739,0.41
+Australia,spark,33,739,4.47
+Australia,tensorflow,16,739,2.17
+Australia,transformers,6,739,0.81
+Canada,airflow,7,1068,0.66
+Canada,aws,233,1068,21.82
+Canada,azure,253,1068,23.69
+Canada,computer vision,201,1068,18.82
+Canada,database management systems,10,1068,0.94
+Canada,docker,18,1068,1.69
+Canada,fine-tuning,78,1068,7.3
+Canada,gcp,91,1068,8.52
+Canada,hadoop,1,1068,0.09
+Canada,keras,4,1068,0.37
+Canada,kubernetes,54,1068,5.06
+Canada,langchain,35,1068,3.28
+Canada,mlflow,4,1068,0.37
+Canada,nlp,301,1068,28.18
+Canada,openai,64,1068,5.99
+Canada,python,486,1068,45.51
+Canada,pytorch,27,1068,2.53
+Canada,r,270,1068,25.28
+Canada,rag,182,1068,17.04
+Canada,scikit-learn,7,1068,0.66
+Canada,spark,28,1068,2.62
+Canada,tensorflow,23,1068,2.15
+Canada,transformers,62,1068,5.81
+Germany,airflow,7,944,0.74
+Germany,aws,197,944,20.87
+Germany,azure,289,944,30.61
+Germany,computer vision,187,944,19.81
+Germany,database management systems,6,944,0.64
+Germany,docker,8,944,0.85
+Germany,fine-tuning,44,944,4.66
+Germany,gcp,61,944,6.46
+Germany,keras,2,944,0.21
+Germany,kubernetes,72,944,7.63
+Germany,langchain,18,944,1.91
+Germany,mlflow,1,944,0.11
+Germany,nlp,253,944,26.8
+Germany,openai,76,944,8.05
+Germany,python,330,944,34.96
+Germany,pytorch,20,944,2.12
+Germany,r,225,944,23.83
+Germany,rag,190,944,20.13
+Germany,scikit-learn,5,944,0.53
+Germany,spark,29,944,3.07
+Germany,tensorflow,14,944,1.48
+Germany,transformers,29,944,3.07
+United Kingdom,airflow,21,1185,1.77
+United Kingdom,aws,329,1185,27.76
+United Kingdom,azure,307,1185,25.91
+United Kingdom,computer vision,268,1185,22.62
+United Kingdom,database management systems,22,1185,1.86
+United Kingdom,docker,62,1185,5.23
+United Kingdom,fine-tuning,101,1185,8.52
+United Kingdom,gcp,104,1185,8.78
+United Kingdom,hadoop,2,1185,0.17
+United Kingdom,kubernetes,50,1185,4.22
+United Kingdom,langchain,53,1185,4.47
+United Kingdom,mlflow,2,1185,0.17
+United Kingdom,nlp,347,1185,29.28
+United Kingdom,openai,93,1185,7.85
+United Kingdom,python,589,1185,49.7
+United Kingdom,pytorch,39,1185,3.29
+United Kingdom,r,256,1185,21.6
+United Kingdom,rag,241,1185,20.34
+United Kingdom,scikit-learn,4,1185,0.34
+United Kingdom,spark,39,1185,3.29
+United Kingdom,tensorflow,28,1185,2.36
+United Kingdom,transformers,49,1185,4.14
+United States,airflow,8,1837,0.44
+United States,aws,271,1837,14.75
+United States,azure,435,1837,23.68
+United States,computer vision,647,1837,35.22
+United States,database management systems,46,1837,2.5
+United States,docker,82,1837,4.46
+United States,fine-tuning,319,1837,17.37
+United States,gcp,113,1837,6.15
+United States,hadoop,2,1837,0.11
+United States,keras,5,1837,0.27
+United States,kubernetes,81,1837,4.41
+United States,langchain,77,1837,4.19
+United States,mlflow,9,1837,0.49
+United States,nlp,703,1837,38.27
+United States,openai,164,1837,8.93
+United States,python,745,1837,40.56
+United States,pytorch,28,1837,1.52
+United States,r,520,1837,28.31
+United States,rag,503,1837,27.38
+United States,scikit-learn,12,1837,0.65
+United States,spark,40,1837,2.18
+United States,tensorflow,16,1837,0.87
+United States,transformers,239,1837,13.01

@@ -1,0 +1,16 @@
+country,remote_type_clean,job_count,country_job_count,share_in_country_percent
+Australia,Hybrid,38,115,33.04
+Australia,On-site,5,115,4.35
+Australia,Remote,72,115,62.61
+Canada,Hybrid,46,193,23.83
+Canada,On-site,3,193,1.55
+Canada,Remote,144,193,74.61
+Germany,Hybrid,22,86,25.58
+Germany,On-site,7,86,8.14
+Germany,Remote,57,86,66.28
+United Kingdom,Hybrid,168,306,54.9
+United Kingdom,On-site,30,306,9.8
+United Kingdom,Remote,108,306,35.29
+United States,Hybrid,105,359,29.25
+United States,On-site,59,359,16.43
+United States,Remote,195,359,54.32

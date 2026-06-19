@@ -1,0 +1,3 @@
+scope,description,job_count
+Full dataset,"Used for general market, country, category, and skill analysis",5773
+Clear remote status subset,"Used for remote work, filtered salary, and experience analysis",1059

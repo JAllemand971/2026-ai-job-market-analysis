@@ -1,0 +1,34 @@
+experience_level_clean,skill_group,job_count,experience_level_job_count,share_in_experience_level_percent
+Junior,Cloud Platforms,28,113,24.78
+Junior,Computer Vision,50,113,44.25
+Junior,Core Programming & Data,103,113,91.15
+Junior,Data Engineering,1,113,0.88
+Junior,MLOps & Infrastructure,14,113,12.39
+Junior,Machine Learning Frameworks,1,113,0.88
+Junior,Text AI & Generative AI,16,113,14.16
+Lead,Cloud Platforms,67,123,54.47
+Lead,Computer Vision,10,123,8.13
+Lead,Core Programming & Data,76,123,61.79
+Lead,Data Engineering,5,123,4.07
+Lead,MLOps & Infrastructure,10,123,8.13
+Lead,Machine Learning Frameworks,1,123,0.81
+Lead,Text AI & Generative AI,67,123,54.47
+Management,Cloud Platforms,10,29,34.48
+Management,Computer Vision,6,29,20.69
+Management,Core Programming & Data,13,29,44.83
+Management,MLOps & Infrastructure,1,29,3.45
+Management,Text AI & Generative AI,9,29,31.03
+Mid,Cloud Platforms,282,548,51.46
+Mid,Computer Vision,130,548,23.72
+Mid,Core Programming & Data,384,548,70.07
+Mid,Data Engineering,6,548,1.09
+Mid,MLOps & Infrastructure,30,548,5.47
+Mid,Machine Learning Frameworks,22,548,4.01
+Mid,Text AI & Generative AI,329,548,60.04
+Senior,Cloud Platforms,102,246,41.46
+Senior,Computer Vision,29,246,11.79
+Senior,Core Programming & Data,155,246,63.01
+Senior,Data Engineering,5,246,2.03
+Senior,MLOps & Infrastructure,47,246,19.11
+Senior,Machine Learning Frameworks,10,246,4.07
+Senior,Text AI & Generative AI,121,246,49.19

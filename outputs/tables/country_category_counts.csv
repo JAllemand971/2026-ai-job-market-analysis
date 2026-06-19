@@ -1,0 +1,81 @@
+country,normalized_title,job_count,country_job_count,share_in_country_percent
+Australia,AI Engineer,167,739,22.6
+Australia,Computer Vision Engineer,13,739,1.76
+Australia,Consultant,29,739,3.92
+Australia,Data Engineer,43,739,5.82
+Australia,Data Scientist,120,739,16.24
+Australia,DevOps Engineer,7,739,0.95
+Australia,LLM Engineer,14,739,1.89
+Australia,MLOps Engineer,1,739,0.14
+Australia,Machine Learning Engineer,67,739,9.07
+Australia,NLP Engineer,13,739,1.76
+Australia,Other,31,739,4.19
+Australia,Platform Engineer,9,739,1.22
+Australia,Product / Management,67,739,9.07
+Australia,Research Scientist,26,739,3.52
+Australia,Software Engineer,118,739,15.97
+Australia,Solutions Architect,14,739,1.89
+Canada,AI Engineer,250,1068,23.41
+Canada,Computer Vision Engineer,9,1068,0.84
+Canada,Consultant,24,1068,2.25
+Canada,Data Engineer,23,1068,2.15
+Canada,Data Scientist,213,1068,19.94
+Canada,DevOps Engineer,8,1068,0.75
+Canada,LLM Engineer,38,1068,3.56
+Canada,MLOps Engineer,21,1068,1.97
+Canada,Machine Learning Engineer,196,1068,18.35
+Canada,NLP Engineer,6,1068,0.56
+Canada,Other,47,1068,4.4
+Canada,Platform Engineer,17,1068,1.59
+Canada,Product / Management,45,1068,4.21
+Canada,Research Scientist,64,1068,5.99
+Canada,Software Engineer,91,1068,8.52
+Canada,Solutions Architect,16,1068,1.5
+Germany,AI Engineer,249,944,26.38
+Germany,Computer Vision Engineer,22,944,2.33
+Germany,Consultant,30,944,3.18
+Germany,Data Engineer,13,944,1.38
+Germany,Data Scientist,185,944,19.6
+Germany,DevOps Engineer,18,944,1.91
+Germany,LLM Engineer,59,944,6.25
+Germany,MLOps Engineer,42,944,4.45
+Germany,Machine Learning Engineer,99,944,10.49
+Germany,NLP Engineer,7,944,0.74
+Germany,Other,21,944,2.22
+Germany,Platform Engineer,22,944,2.33
+Germany,Product / Management,49,944,5.19
+Germany,Research Scientist,33,944,3.5
+Germany,Software Engineer,72,944,7.63
+Germany,Solutions Architect,23,944,2.44
+United Kingdom,AI Engineer,316,1185,26.67
+United Kingdom,Computer Vision Engineer,30,1185,2.53
+United Kingdom,Consultant,23,1185,1.94
+United Kingdom,Data Engineer,25,1185,2.11
+United Kingdom,Data Scientist,228,1185,19.24
+United Kingdom,DevOps Engineer,4,1185,0.34
+United Kingdom,LLM Engineer,51,1185,4.3
+United Kingdom,MLOps Engineer,38,1185,3.21
+United Kingdom,Machine Learning Engineer,215,1185,18.14
+United Kingdom,NLP Engineer,10,1185,0.84
+United Kingdom,Other,18,1185,1.52
+United Kingdom,Platform Engineer,10,1185,0.84
+United Kingdom,Product / Management,33,1185,2.78
+United Kingdom,Research Scientist,76,1185,6.41
+United Kingdom,Software Engineer,89,1185,7.51
+United Kingdom,Solutions Architect,19,1185,1.6
+United States,AI Engineer,347,1837,18.89
+United States,Computer Vision Engineer,166,1837,9.04
+United States,Consultant,11,1837,0.6
+United States,Data Engineer,12,1837,0.65
+United States,Data Scientist,223,1837,12.14
+United States,DevOps Engineer,35,1837,1.91
+United States,LLM Engineer,234,1837,12.74
+United States,MLOps Engineer,149,1837,8.11
+United States,Machine Learning Engineer,245,1837,13.34
+United States,NLP Engineer,78,1837,4.25
+United States,Other,49,1837,2.67
+United States,Platform Engineer,4,1837,0.22
+United States,Product / Management,25,1837,1.36
+United States,Research Scientist,183,1837,9.96
+United States,Software Engineer,69,1837,3.76
+United States,Solutions Architect,7,1837,0.38

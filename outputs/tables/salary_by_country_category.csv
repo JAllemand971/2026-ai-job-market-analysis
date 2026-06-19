@@ -1,0 +1,44 @@
+country,normalized_title,salary_rows,median_salary,average_salary,enough_salary_rows
+Australia,AI Engineer,4,101750.0,83875.0,False
+Australia,Data Engineer,1,81000.0,81000.0,False
+Australia,Data Scientist,4,88500.0,89125.0,False
+Australia,Machine Learning Engineer,1,94500.0,94500.0,False
+Australia,Software Engineer,2,78750.0,78750.0,False
+Canada,AI Engineer,6,90750.0,86250.0,False
+Canada,Data Engineer,2,91250.0,91250.0,False
+Canada,Data Scientist,13,66500.0,72961.54,False
+Canada,LLM Engineer,2,105250.0,105250.0,False
+Canada,MLOps Engineer,2,91000.0,91000.0,False
+Canada,Machine Learning Engineer,8,107250.0,114687.5,False
+Canada,Software Engineer,5,121500.0,116200.0,False
+Germany,AI Engineer,1,103000.0,103000.0,False
+Germany,Software Engineer,1,94500.0,94500.0,False
+United Kingdom,AI Engineer,92,99500.0,115413.04,True
+United Kingdom,Computer Vision Engineer,12,74000.0,74041.67,False
+United Kingdom,Consultant,6,67000.0,79833.33,False
+United Kingdom,Data Engineer,3,82000.0,82333.33,False
+United Kingdom,Data Scientist,67,84000.0,93335.82,True
+United Kingdom,DevOps Engineer,3,190000.0,151666.67,False
+United Kingdom,LLM Engineer,16,111000.0,119718.75,False
+United Kingdom,MLOps Engineer,9,124000.0,124222.22,False
+United Kingdom,Machine Learning Engineer,35,94000.0,106185.71,True
+United Kingdom,NLP Engineer,1,66000.0,66000.0,False
+United Kingdom,Other,4,78000.0,71000.0,False
+United Kingdom,Platform Engineer,6,84500.0,90333.33,False
+United Kingdom,Product / Management,6,75000.0,82500.0,False
+United Kingdom,Research Scientist,15,82000.0,87900.0,False
+United Kingdom,Software Engineer,26,77500.0,96692.31,True
+United Kingdom,Solutions Architect,4,103750.0,102750.0,False
+United States,AI Engineer,130,116000.0,118784.62,True
+United States,Computer Vision Engineer,16,180000.0,177281.25,False
+United States,Consultant,1,96000.0,96000.0,False
+United States,Data Engineer,1,100000.0,100000.0,False
+United States,Data Scientist,86,130250.0,127156.98,True
+United States,DevOps Engineer,2,124000.0,124000.0,False
+United States,LLM Engineer,24,150000.0,145020.83,True
+United States,MLOps Engineer,11,121000.0,127863.64,False
+United States,Machine Learning Engineer,5,119000.0,127200.0,False
+United States,NLP Engineer,10,138000.0,141800.0,False
+United States,Other,1,95500.0,95500.0,False
+United States,Research Scientist,45,173000.0,172866.67,True
+United States,Software Engineer,27,179000.0,182000.0,True

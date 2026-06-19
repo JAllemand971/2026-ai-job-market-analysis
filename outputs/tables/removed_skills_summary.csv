@@ -1,0 +1,23 @@
+skill,removed_count
+rag,1462
+r,693
+azure,631
+computer vision,543
+nlp,415
+fine-tuning,356
+spark,354
+openai,298
+gcp,254
+aws,171
+hadoop,105
+kubernetes,60
+langchain,57
+pytorch,56
+docker,46
+tensorflow,46
+transformers,28
+python,14
+airflow,14
+scikit-learn,12
+mlflow,11
+database management systems,5

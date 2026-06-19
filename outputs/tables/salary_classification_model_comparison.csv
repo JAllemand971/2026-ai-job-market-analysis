@@ -1,0 +1,3 @@
+model,accuracy,macro_f1
+Logistic Regression,0.512,0.503
+Random Forest Classifier,0.537,0.531

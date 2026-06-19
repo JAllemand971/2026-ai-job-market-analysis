@@ -1,0 +1,11 @@
+metric,value
+total_rows,5773
+final_complete_columns,48
+final_light_columns,29
+rows_with_final_recommended_skills,4998
+final_recommended_coverage_percent,86.58
+average_final_recommended_skills_per_row,2.45
+unique_normalized_titles,16
+countries,5
+date_min,2021-05-29
+date_max,2026-02-22

@@ -1,0 +1,15 @@
+metric,value
+total_rows,5773.0
+rows_with_original_skills,1084.0
+rows_with_section9_completed_skills,4999.0
+rows_validated_by_llm,3915.0
+rows_with_final_recommended_skills,4998.0
+final_recommended_coverage_percent,86.58
+average_original_skills_per_row,0.26
+average_section9_skills_per_row,3.1
+average_llm_validated_skills_per_row,1.86
+average_final_recommended_skills_per_row,2.45
+average_llm_keep_rate_percent,69.46
+median_llm_keep_rate_percent,66.67
+rows_where_llm_removed_all_skills,1.0
+invalid_llm_subset_rows,0.0

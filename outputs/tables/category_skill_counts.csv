@@ -1,0 +1,185 @@
+normalized_title,skill,job_count,category_job_count,share_in_category_percent
+AI Engineer,python,849,1329,63.88
+AI Engineer,azure,622,1329,46.8
+AI Engineer,nlp,597,1329,44.92
+AI Engineer,rag,499,1329,37.55
+AI Engineer,fine-tuning,346,1329,26.03
+AI Engineer,aws,209,1329,15.73
+AI Engineer,openai,208,1329,15.65
+AI Engineer,computer vision,162,1329,12.19
+AI Engineer,langchain,154,1329,11.59
+AI Engineer,transformers,125,1329,9.41
+AI Engineer,r,86,1329,6.47
+AI Engineer,gcp,78,1329,5.87
+AI Engineer,pytorch,49,1329,3.69
+AI Engineer,docker,47,1329,3.54
+AI Engineer,database management systems,35,1329,2.63
+AI Engineer,tensorflow,12,1329,0.9
+AI Engineer,kubernetes,6,1329,0.45
+AI Engineer,mlflow,5,1329,0.38
+AI Engineer,hadoop,1,1329,0.08
+AI Engineer,scikit-learn,1,1329,0.08
+AI Engineer,spark,1,1329,0.08
+Computer Vision Engineer,computer vision,240,240,100.0
+Computer Vision Engineer,r,14,240,5.83
+Computer Vision Engineer,python,13,240,5.42
+Computer Vision Engineer,fine-tuning,6,240,2.5
+Computer Vision Engineer,docker,2,240,0.83
+Computer Vision Engineer,kubernetes,2,240,0.83
+Computer Vision Engineer,nlp,2,240,0.83
+Computer Vision Engineer,gcp,1,240,0.42
+Computer Vision Engineer,transformers,1,240,0.42
+Consultant,nlp,53,117,45.3
+Consultant,azure,50,117,42.74
+Consultant,r,40,117,34.19
+Consultant,python,17,117,14.53
+Consultant,openai,2,117,1.71
+Data Engineer,aws,74,116,63.79
+Data Engineer,azure,72,116,62.07
+Data Engineer,gcp,70,116,60.34
+Data Engineer,spark,61,116,52.59
+Data Engineer,airflow,48,116,41.38
+Data Engineer,python,32,116,27.59
+Data Engineer,computer vision,20,116,17.24
+Data Engineer,openai,17,116,14.66
+Data Engineer,database management systems,9,116,7.76
+Data Engineer,rag,4,116,3.45
+Data Scientist,r,718,969,74.1
+Data Scientist,python,528,969,54.49
+Data Scientist,aws,351,969,36.22
+Data Scientist,computer vision,328,969,33.85
+Data Scientist,nlp,273,969,28.17
+Data Scientist,azure,231,969,23.84
+Data Scientist,gcp,143,969,14.76
+Data Scientist,rag,69,969,7.12
+Data Scientist,database management systems,36,969,3.72
+Data Scientist,spark,23,969,2.37
+Data Scientist,tensorflow,16,969,1.65
+Data Scientist,pytorch,14,969,1.44
+Data Scientist,scikit-learn,9,969,0.93
+Data Scientist,langchain,8,969,0.83
+Data Scientist,transformers,6,969,0.62
+Data Scientist,docker,1,969,0.1
+Data Scientist,hadoop,1,969,0.1
+DevOps Engineer,azure,57,72,79.17
+DevOps Engineer,rag,38,72,52.78
+DevOps Engineer,python,33,72,45.83
+DevOps Engineer,openai,31,72,43.06
+LLM Engineer,rag,306,396,77.27
+LLM Engineer,fine-tuning,203,396,51.26
+LLM Engineer,nlp,157,396,39.65
+LLM Engineer,python,140,396,35.35
+LLM Engineer,transformers,131,396,33.08
+LLM Engineer,openai,44,396,11.11
+LLM Engineer,azure,36,396,9.09
+LLM Engineer,langchain,34,396,8.59
+LLM Engineer,aws,30,396,7.58
+LLM Engineer,gcp,15,396,3.79
+LLM Engineer,spark,14,396,3.54
+LLM Engineer,docker,12,396,3.03
+LLM Engineer,pytorch,12,396,3.03
+LLM Engineer,computer vision,10,396,2.53
+LLM Engineer,r,7,396,1.77
+LLM Engineer,scikit-learn,2,396,0.51
+MLOps Engineer,aws,162,251,64.54
+MLOps Engineer,python,154,251,61.35
+MLOps Engineer,azure,113,251,45.02
+MLOps Engineer,docker,89,251,35.46
+MLOps Engineer,gcp,82,251,32.67
+MLOps Engineer,nlp,46,251,18.33
+MLOps Engineer,kubernetes,31,251,12.35
+MLOps Engineer,spark,18,251,7.17
+MLOps Engineer,transformers,17,251,6.77
+MLOps Engineer,mlflow,11,251,4.38
+MLOps Engineer,r,8,251,3.19
+MLOps Engineer,openai,7,251,2.79
+MLOps Engineer,pytorch,5,251,1.99
+MLOps Engineer,database management systems,4,251,1.59
+MLOps Engineer,airflow,3,251,1.2
+MLOps Engineer,hadoop,3,251,1.2
+MLOps Engineer,langchain,3,251,1.2
+MLOps Engineer,scikit-learn,3,251,1.2
+MLOps Engineer,tensorflow,3,251,1.2
+MLOps Engineer,rag,1,251,0.4
+Machine Learning Engineer,nlp,459,822,55.84
+Machine Learning Engineer,computer vision,404,822,49.15
+Machine Learning Engineer,python,223,822,27.13
+Machine Learning Engineer,r,216,822,26.28
+Machine Learning Engineer,aws,155,822,18.86
+Machine Learning Engineer,rag,112,822,13.63
+Machine Learning Engineer,kubernetes,108,822,13.14
+Machine Learning Engineer,azure,107,822,13.02
+Machine Learning Engineer,tensorflow,55,822,6.69
+Machine Learning Engineer,transformers,45,822,5.47
+Machine Learning Engineer,pytorch,32,822,3.89
+Machine Learning Engineer,gcp,24,822,2.92
+Machine Learning Engineer,fine-tuning,19,822,2.31
+Machine Learning Engineer,docker,17,822,2.07
+Machine Learning Engineer,airflow,16,822,1.95
+Machine Learning Engineer,keras,13,822,1.58
+Machine Learning Engineer,scikit-learn,11,822,1.34
+Machine Learning Engineer,spark,9,822,1.09
+Machine Learning Engineer,database management systems,3,822,0.36
+NLP Engineer,nlp,112,114,98.25
+NLP Engineer,python,14,114,12.28
+NLP Engineer,rag,4,114,3.51
+NLP Engineer,computer vision,2,114,1.75
+NLP Engineer,transformers,2,114,1.75
+NLP Engineer,fine-tuning,1,114,0.88
+NLP Engineer,r,1,114,0.88
+Other,pytorch,2,166,1.2
+Other,aws,1,166,0.6
+Other,computer vision,1,166,0.6
+Other,fine-tuning,1,166,0.6
+Other,mlflow,1,166,0.6
+Other,python,1,166,0.6
+Other,rag,1,166,0.6
+Platform Engineer,azure,15,62,24.19
+Platform Engineer,python,15,62,24.19
+Platform Engineer,aws,14,62,22.58
+Platform Engineer,kubernetes,13,62,20.97
+Platform Engineer,openai,6,62,9.68
+Platform Engineer,nlp,3,62,4.84
+Product / Management,aws,78,219,35.62
+Product / Management,azure,60,219,27.4
+Product / Management,r,45,219,20.55
+Product / Management,rag,23,219,10.5
+Product / Management,computer vision,18,219,8.22
+Product / Management,nlp,16,219,7.31
+Product / Management,openai,15,219,6.85
+Product / Management,spark,1,219,0.46
+Research Scientist,r,223,382,58.38
+Research Scientist,computer vision,209,382,54.71
+Research Scientist,python,135,382,35.34
+Research Scientist,transformers,58,382,15.18
+Research Scientist,rag,54,382,14.14
+Research Scientist,openai,53,382,13.87
+Research Scientist,pytorch,15,382,3.93
+Research Scientist,nlp,9,382,2.36
+Research Scientist,tensorflow,6,382,1.57
+Research Scientist,database management systems,1,382,0.26
+Software Engineer,python,259,439,59.0
+Software Engineer,aws,178,439,40.55
+Software Engineer,kubernetes,134,439,30.52
+Software Engineer,rag,70,439,15.95
+Software Engineer,azure,56,439,12.76
+Software Engineer,openai,54,439,12.3
+Software Engineer,r,47,439,10.71
+Software Engineer,nlp,44,439,10.02
+Software Engineer,computer vision,33,439,7.52
+Software Engineer,spark,33,439,7.52
+Software Engineer,database management systems,6,439,1.37
+Solutions Architect,azure,61,79,77.22
+Solutions Architect,python,54,79,68.35
+Solutions Architect,gcp,18,79,22.78
+Solutions Architect,fine-tuning,16,79,20.25
+Solutions Architect,r,13,79,16.46
+Solutions Architect,nlp,12,79,15.19
+Solutions Architect,rag,12,79,15.19
+Solutions Architect,docker,9,79,11.39
+Solutions Architect,openai,9,79,11.39
+Solutions Architect,spark,9,79,11.39
+Solutions Architect,scikit-learn,5,79,6.33
+Solutions Architect,tensorflow,5,79,6.33
+Solutions Architect,pytorch,4,79,5.06
+Solutions Architect,database management systems,1,79,1.27

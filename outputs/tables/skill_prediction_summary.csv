@@ -1,0 +1,2 @@
+model,micro_f1,macro_f1,hamming_loss
+TF-IDF + OneVsRest Logistic Regression,0.664,0.392,0.07

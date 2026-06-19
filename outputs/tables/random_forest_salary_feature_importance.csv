@@ -1,0 +1,49 @@
+feature,importance
+experience_level_Mid-level,0.35726726416131416
+skill_docker,0.06361995851555173
+normalized_title_Machine Learning Engineer,0.06343442529307966
+skill_nlp,0.037423793121828725
+skill_python,0.03078033180877389
+remote_type_Onsite,0.030360152847450087
+skill_computer vision,0.030258879518390975
+skill_gcp,0.02443319642877226
+normalized_title_Other,0.023258810806337484
+skill_aws,0.022877443093651362
+skill_rag,0.02242600434682409
+skill_azure,0.021258995151848495
+remote_type_Remote,0.02022928101278664
+skill_r,0.019291991777818228
+skill_fine-tuning,0.01917814272334465
+normalized_title_LLM Engineer,0.018062377385341635
+skill_transformers,0.016401704782478547
+skill_pytorch,0.01541150603837542
+normalized_title_NLP Engineer,0.014272697465501234
+normalized_title_MLOps Engineer,0.01301923978976324
+normalized_title_AI Engineer,0.01299903681906183
+remote_type_Unspecified,0.012688084488094841
+normalized_title_Research Scientist,0.012649883099806549
+normalized_title_Data Scientist,0.012324997448487925
+experience_level_Lead,0.011113583682977723
+experience_level_Senior,0.010841936753298769
+skill_openai,0.00889472030634423
+normalized_title_Computer Vision Engineer,0.008853577910375875
+skill_kubernetes,0.006534450477077361
+normalized_title_Product / Management,0.0059952565149461595
+normalized_title_Software Engineer,0.005543016165034022
+skill_mlflow,0.005419441151851113
+remote_type_Hybrid,0.005276659393469439
+experience_level_Management,0.00437982766569812
+experience_level_Junior,0.003813893856217117
+skill_spark,0.003022417973956738
+skill_langchain,0.0024046655287960315
+skill_database management systems,0.0015697477603994969
+normalized_title_Consultant,0.0008155518032015977
+normalized_title_Data Engineer,0.0007627384355462982
+normalized_title_DevOps Engineer,0.0006159688634734471
+normalized_title_Solutions Architect,0.00011210071866823327
+skill_airflow,0.00010224711398471756
+normalized_title_Platform Engineer,0.0
+skill_hadoop,0.0
+skill_keras,0.0
+skill_scikit-learn,0.0
+skill_tensorflow,0.0

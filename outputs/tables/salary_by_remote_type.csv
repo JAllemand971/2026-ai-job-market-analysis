@@ -1,0 +1,4 @@
+remote_type_clean,salary_rows,median_salary,average_salary,min_salary,max_salary
+On-site,91,149000.0,143049.45,54000.0,275000.0
+Hybrid,299,111000.0,123219.06,2000.0,318000.0
+Remote,326,111000.0,109236.2,38000.0,396000.0

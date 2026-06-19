@@ -1,0 +1,25 @@
+country,experience_level_clean,job_count,country_job_count,share_in_country_percent
+Australia,Junior,45,115,39.13
+Australia,Lead,9,115,7.83
+Australia,Management,4,115,3.48
+Australia,Mid,12,115,10.43
+Australia,Senior,45,115,39.13
+Canada,Junior,14,193,7.25
+Canada,Lead,20,193,10.36
+Canada,Management,14,193,7.25
+Canada,Mid,97,193,50.26
+Canada,Senior,48,193,24.87
+Germany,Lead,2,86,2.33
+Germany,Management,3,86,3.49
+Germany,Mid,62,86,72.09
+Germany,Senior,19,86,22.09
+United Kingdom,Junior,9,306,2.94
+United Kingdom,Lead,61,306,19.93
+United Kingdom,Management,5,306,1.63
+United Kingdom,Mid,147,306,48.04
+United Kingdom,Senior,84,306,27.45
+United States,Junior,45,359,12.53
+United States,Lead,31,359,8.64
+United States,Management,3,359,0.84
+United States,Mid,230,359,64.07
+United States,Senior,50,359,13.93

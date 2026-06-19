@@ -1,0 +1,24 @@
+skill,job_count
+python,2467
+nlp,1783
+azure,1480
+computer vision,1427
+r,1418
+aws,1252
+rag,1193
+fine-tuning,592
+openai,446
+gcp,431
+transformers,385
+kubernetes,294
+langchain,199
+docker,177
+spark,169
+pytorch,133
+tensorflow,97
+database management systems,95
+airflow,67
+scikit-learn,31
+mlflow,17
+keras,13
+hadoop,5

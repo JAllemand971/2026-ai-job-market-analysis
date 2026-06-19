@@ -1,0 +1,6 @@
+country,job_count,salary_count,avg_salary,avg_skills_per_job,salary_coverage_percent
+United States,1837,1835,133397.55,2.76,99.89
+United Kingdom,1185,1185,91625.32,2.54,100.0
+Canada,1068,211,103857.82,2.28,19.76
+Germany,944,61,88598.36,2.19,6.46
+Australia,739,70,102835.71,2.16,9.47

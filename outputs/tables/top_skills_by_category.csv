@@ -1,0 +1,80 @@
+normalized_title,skill,count
+AI Engineer,python,849
+AI Engineer,azure,622
+AI Engineer,nlp,597
+AI Engineer,rag,499
+AI Engineer,fine-tuning,346
+Computer Vision Engineer,computer vision,240
+Computer Vision Engineer,r,14
+Computer Vision Engineer,python,13
+Computer Vision Engineer,fine-tuning,6
+Computer Vision Engineer,docker,2
+Consultant,nlp,53
+Consultant,azure,50
+Consultant,r,40
+Consultant,python,17
+Consultant,openai,2
+Data Engineer,aws,74
+Data Engineer,azure,72
+Data Engineer,gcp,70
+Data Engineer,spark,61
+Data Engineer,airflow,48
+Data Scientist,r,718
+Data Scientist,python,528
+Data Scientist,aws,351
+Data Scientist,computer vision,328
+Data Scientist,nlp,273
+DevOps Engineer,azure,57
+DevOps Engineer,rag,38
+DevOps Engineer,python,33
+DevOps Engineer,openai,31
+LLM Engineer,rag,306
+LLM Engineer,fine-tuning,203
+LLM Engineer,nlp,157
+LLM Engineer,python,140
+LLM Engineer,transformers,131
+MLOps Engineer,aws,162
+MLOps Engineer,python,154
+MLOps Engineer,azure,113
+MLOps Engineer,docker,89
+MLOps Engineer,gcp,82
+Machine Learning Engineer,nlp,459
+Machine Learning Engineer,computer vision,404
+Machine Learning Engineer,python,223
+Machine Learning Engineer,r,216
+Machine Learning Engineer,aws,155
+NLP Engineer,nlp,112
+NLP Engineer,python,14
+NLP Engineer,rag,4
+NLP Engineer,computer vision,2
+NLP Engineer,transformers,2
+Other,pytorch,2
+Other,aws,1
+Other,computer vision,1
+Other,fine-tuning,1
+Other,mlflow,1
+Platform Engineer,azure,15
+Platform Engineer,python,15
+Platform Engineer,aws,14
+Platform Engineer,kubernetes,13
+Platform Engineer,openai,6
+Product / Management,aws,78
+Product / Management,azure,60
+Product / Management,r,45
+Product / Management,rag,23
+Product / Management,computer vision,18
+Research Scientist,r,223
+Research Scientist,computer vision,209
+Research Scientist,python,135
+Research Scientist,transformers,58
+Research Scientist,rag,54
+Software Engineer,python,259
+Software Engineer,aws,178
+Software Engineer,kubernetes,134
+Software Engineer,rag,70
+Software Engineer,azure,56
+Solutions Architect,azure,61
+Solutions Architect,python,54
+Solutions Architect,gcp,18
+Solutions Architect,fine-tuning,16
+Solutions Architect,r,13

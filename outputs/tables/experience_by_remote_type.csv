@@ -1,0 +1,16 @@
+remote_type_clean,experience_level_clean,job_count,remote_type_job_count,share_in_remote_type_percent
+Hybrid,Junior,55,379,14.51
+Hybrid,Lead,53,379,13.98
+Hybrid,Management,19,379,5.01
+Hybrid,Mid,140,379,36.94
+Hybrid,Senior,112,379,29.55
+On-site,Junior,1,104,0.96
+On-site,Lead,6,104,5.77
+On-site,Management,2,104,1.92
+On-site,Mid,74,104,71.15
+On-site,Senior,21,104,20.19
+Remote,Junior,57,576,9.9
+Remote,Lead,64,576,11.11
+Remote,Management,8,576,1.39
+Remote,Mid,334,576,57.99
+Remote,Senior,113,576,19.62

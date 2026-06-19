@@ -1,0 +1,5 @@
+model,MAE,RMSE,R2
+Baseline Median,39471.39,2796128065.395,-0.061
+Linear Regression,27909.417,1576810150.87,0.401
+Log Linear Regression,27983.47,1650388190.323,0.374
+Random Forest Regressor,26675.494,1598236653.406,0.393

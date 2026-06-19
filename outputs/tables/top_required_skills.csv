@@ -1,0 +1,21 @@
+,skill,count
+0,Python,308
+1,Computer Vision,276
+2,NLP,171
+3,Azure,133
+4,R,108
+5,SQL,87
+6,RAG,86
+7,AWS,75
+8,OpenAI,61
+9,Fine-tuning,32
+10,GCP,29
+11,Kubernetes,23
+12,PyTorch,23
+13,Docker,17
+14,Spark,15
+15,Transformers,15
+16,LangChain,13
+17,TensorFlow,13
+18,Scikit-learn,7
+19,MLflow,6

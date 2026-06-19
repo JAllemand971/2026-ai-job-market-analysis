@@ -1,0 +1,14 @@
+,missing_count,missing_percent,unique_values
+required_skills,4689,81.22293434955829,115
+salary_min,2430,42.09249956694959,245
+salary_max,2415,41.832669322709165,277
+posted_date,123,2.1306080027715226,322
+company,5,0.08661008141347654,2151
+city,0,0.0,1159
+country,0,0.0,5
+job_title,0,0.0,2883
+currency,0,0.0,1
+experience_level,0,0.0,5
+remote_type,0,0.0,4
+source,0,0.0,2
+job_description,0,0.0,3750

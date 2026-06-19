@@ -1,0 +1,7 @@
+metric,value
+Total job postings analyzed,1059.0
+Rows with salary,717.0
+Rows with valid positive salary,716.0
+Rows with zero or invalid salary,1.0
+Salary coverage before cleaning,67.71
+Valid salary coverage after cleaning,67.61

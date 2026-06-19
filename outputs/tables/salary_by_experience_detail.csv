@@ -1,0 +1,6 @@
+experience_level_clean,salary_rows,median_salary,average_salary,min_salary,max_salary,enough_salary_rows
+Junior,65,160000.0,139846.15,44000.0,252000.0,True
+Mid,394,111000.0,115050.76,37000.0,396000.0,True
+Senior,148,119250.0,125905.41,51000.0,275000.0,True
+Lead,96,106500.0,115526.04,46500.0,262000.0,True
+Management,13,103500.0,102038.46,2000.0,238000.0,False

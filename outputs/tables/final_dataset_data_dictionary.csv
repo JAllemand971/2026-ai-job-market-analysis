@@ -1,0 +1,49 @@
+column,description
+job_posting_id,Unique row identifier generated for the final dataset
+job_title,Original or cleaned job title
+job_title_original,Original job title before non-English cleanup
+company,Company name
+country,Country of the job posting
+city,Dataset column
+city_clean,Cleaned city value
+remote_type,"Remote, hybrid, onsite or unspecified"
+experience_level,Experience level from the source dataset
+source,Dataset column
+salary_min,Dataset column
+salary_max,Dataset column
+salary_avg,Average salary calculated from salary_min and salary_max
+currency,Dataset column
+posted_date,Dataset column
+year,Dataset column
+month,Dataset column
+year_month,Dataset column
+job_description,Dataset column
+description_length,Dataset column
+description_truncated,Dataset column
+normalized_title,Normalized job category assigned by the hybrid title normalization step
+title_similarity,Similarity score used during semantic title normalization
+normalization_method,Method used for title normalization
+esco_occupation,Closest ESCO occupation when available
+required_skills,Dataset column
+original_skills_list,Original skill list extracted from required_skills
+has_original_skills,Dataset column
+n_original_skills,Dataset column
+inferred_skills_knn,Dataset column
+completed_skills_list,Skill list completed by Section 9
+skill_inference_method,Method used to complete skills in Section 9
+has_section9_completed_skills,Dataset column
+n_section9_completed_skills,Dataset column
+needs_llm_validation,Dataset column
+llm_status,Dataset column
+llm_validated_skills_list,Skills kept by the local LLM validation step
+llm_removed_skills_list,Skills removed by the local LLM validation step
+llm_skill_reasons,Short LLM reasons for keeping or rejecting skills
+llm_keep_rate,Dataset column
+recommended_skills_list,Final recommended skill list used for analysis
+recommended_skills,Dataset column
+final_recommended_skills,Final recommended skills as a comma-separated string
+recommended_skill_source,Dataset column
+final_skill_source,Source of the final recommended skills
+has_recommended_skills,Dataset column
+n_recommended_skills,Dataset column
+n_final_recommended_skills,Number of final recommended skills

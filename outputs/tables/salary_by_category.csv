@@ -1,0 +1,17 @@
+normalized_title,salary_rows,median_salary,average_salary,min_salary,max_salary,enough_salary_rows
+Research Scientist,60,163500.0,151625.0,57000.0,252000.0,True
+Software Engineer,61,146500.0,135426.23,2000.0,318000.0,True
+NLP Engineer,11,138000.0,134909.09,66000.0,164000.0,False
+LLM Engineer,42,127500.0,133488.1,39500.0,295000.0,True
+DevOps Engineer,5,125000.0,140600.0,75000.0,190000.0,False
+Computer Vision Engineer,28,122500.0,133035.71,47000.0,275000.0,False
+MLOps Engineer,22,114500.0,123022.73,71000.0,262000.0,False
+AI Engineer,233,114000.0,115948.5,2000.0,396000.0,True
+Solutions Architect,4,103750.0,102750.0,64000.0,139500.0,False
+Machine Learning Engineer,49,103500.0,109479.59,52000.0,231500.0,True
+Data Scientist,170,90000.0,108788.24,53000.0,241000.0,True
+Data Engineer,7,89000.0,87214.29,63500.0,101500.0,False
+Platform Engineer,6,84500.0,90333.33,67000.0,115000.0,False
+Other,5,79000.0,75900.0,39000.0,95500.0,False
+Product / Management,6,75000.0,82500.0,44000.0,171000.0,False
+Consultant,7,72000.0,82142.86,38000.0,127000.0,False

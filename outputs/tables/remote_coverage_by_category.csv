@@ -1,0 +1,17 @@
+normalized_title,job_count,enough_remote_rows
+AI Engineer,290,True
+Computer Vision Engineer,39,True
+Consultant,22,False
+Data Engineer,16,False
+Data Scientist,234,True
+DevOps Engineer,5,False
+LLM Engineer,88,True
+MLOps Engineer,26,False
+Machine Learning Engineer,72,True
+NLP Engineer,12,False
+Other,34,True
+Platform Engineer,9,False
+Product / Management,29,False
+Research Scientist,78,True
+Software Engineer,96,True
+Solutions Architect,9,False

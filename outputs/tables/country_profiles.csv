@@ -1,0 +1,6 @@
+country,job_count,top_categories,top_skills,top_skill_groups
+United States,1837,"AI Engineer, Machine Learning Engineer, LLM Engineer","python, nlp, computer vision, r, rag","Core Programming & Data, Text AI & Generative AI, Computer Vision"
+United Kingdom,1185,"AI Engineer, Data Scientist, Machine Learning Engineer","python, nlp, aws, azure, computer vision","Core Programming & Data, Text AI & Generative AI, Cloud Platforms"
+Canada,1068,"AI Engineer, Data Scientist, Machine Learning Engineer","python, nlp, r, azure, aws","Core Programming & Data, Text AI & Generative AI, Cloud Platforms"
+Germany,944,"AI Engineer, Data Scientist, Machine Learning Engineer","python, azure, nlp, r, aws","Core Programming & Data, Cloud Platforms, Text AI & Generative AI"
+Australia,739,"AI Engineer, Data Scientist, Software Engineer","python, aws, azure, nlp, r","Core Programming & Data, Cloud Platforms, Text AI & Generative AI"
