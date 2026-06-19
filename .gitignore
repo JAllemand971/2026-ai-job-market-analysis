@@ -22,3 +22,5 @@ outputs/models/
 # OS files
 .DS_Store
 Thumbs.db
+# Prevent figures from being committed directly inside outputs root
+outputs/*.png
